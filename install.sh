@@ -97,7 +97,7 @@ install_proton() {
         echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
         sysctl -p
         rm -rf /usr/bin/proton
-        wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+        wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/iptvxemphim/raw/Download/ProtonBox-${arch}
         chmod +x /usr/bin/proton
 }
 
